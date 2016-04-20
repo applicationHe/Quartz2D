@@ -15,6 +15,10 @@
 		18C5406C1CC5C4BD009CBB21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C5406A1CC5C4BD009CBB21 /* LaunchScreen.storyboard */; };
 		18C540771CC5C4BD009CBB21 /* Quartz2DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C540761CC5C4BD009CBB21 /* Quartz2DTests.m */; };
 		18C540821CC5C4BD009CBB21 /* Quartz2DUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C540811CC5C4BD009CBB21 /* Quartz2DUITests.m */; };
+		18C540911CC5C4FD009CBB21 /* myView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C540901CC5C4FD009CBB21 /* myView.m */; };
+		18C540941CC5C7F3009CBB21 /* secondView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C540931CC5C7F3009CBB21 /* secondView.m */; };
+		18C540971CC5CBCE009CBB21 /* thirdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C540961CC5CBCE009CBB21 /* thirdView.m */; };
+		18C540991CC60486009CBB21 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C540981CC60486009CBB21 /* default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		18C5407D1CC5C4BD009CBB21 /* Quartz2DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quartz2DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C540811CC5C4BD009CBB21 /* Quartz2DUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2DUITests.m; sourceTree = "<group>"; };
 		18C540831CC5C4BD009CBB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C5408F1CC5C4FD009CBB21 /* myView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myView.h; sourceTree = "<group>"; };
+		18C540901CC5C4FD009CBB21 /* myView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myView.m; sourceTree = "<group>"; };
+		18C540921CC5C7F3009CBB21 /* secondView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondView.h; sourceTree = "<group>"; };
+		18C540931CC5C7F3009CBB21 /* secondView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondView.m; sourceTree = "<group>"; };
+		18C540951CC5CBCE009CBB21 /* thirdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thirdView.h; sourceTree = "<group>"; };
+		18C540961CC5CBCE009CBB21 /* thirdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thirdView.m; sourceTree = "<group>"; };
+		18C540981CC60486009CBB21 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +92,7 @@
 		18C540501CC5C4BD009CBB21 = {
 			isa = PBXGroup;
 			children = (
+				18C540981CC60486009CBB21 /* default.png */,
 				18C5405B1CC5C4BD009CBB21 /* Quartz2D */,
 				18C540751CC5C4BD009CBB21 /* Quartz2DTests */,
 				18C540801CC5C4BD009CBB21 /* Quartz2DUITests */,
@@ -105,6 +117,12 @@
 				18C540601CC5C4BD009CBB21 /* AppDelegate.m */,
 				18C540621CC5C4BD009CBB21 /* ViewController.h */,
 				18C540631CC5C4BD009CBB21 /* ViewController.m */,
+				18C5408F1CC5C4FD009CBB21 /* myView.h */,
+				18C540901CC5C4FD009CBB21 /* myView.m */,
+				18C540921CC5C7F3009CBB21 /* secondView.h */,
+				18C540931CC5C7F3009CBB21 /* secondView.m */,
+				18C540951CC5CBCE009CBB21 /* thirdView.h */,
+				18C540961CC5CBCE009CBB21 /* thirdView.m */,
 				18C540651CC5C4BD009CBB21 /* Main.storyboard */,
 				18C540681CC5C4BD009CBB21 /* Assets.xcassets */,
 				18C5406A1CC5C4BD009CBB21 /* LaunchScreen.storyboard */,
@@ -246,6 +264,7 @@
 				18C5406C1CC5C4BD009CBB21 /* LaunchScreen.storyboard in Resources */,
 				18C540691CC5C4BD009CBB21 /* Assets.xcassets in Resources */,
 				18C540671CC5C4BD009CBB21 /* Main.storyboard in Resources */,
+				18C540991CC60486009CBB21 /* default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C540911CC5C4FD009CBB21 /* myView.m in Sources */,
 				18C540641CC5C4BD009CBB21 /* ViewController.m in Sources */,
 				18C540611CC5C4BD009CBB21 /* AppDelegate.m in Sources */,
+				18C540941CC5C7F3009CBB21 /* secondView.m in Sources */,
+				18C540971CC5CBCE009CBB21 /* thirdView.m in Sources */,
 				18C5405E1CC5C4BD009CBB21 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +518,7 @@
 				18C540881CC5C4BD009CBB21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18C540891CC5C4BD009CBB21 /* Build configuration list for PBXNativeTarget "Quartz2DTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +527,7 @@
 				18C5408B1CC5C4BD009CBB21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18C5408C1CC5C4BD009CBB21 /* Build configuration list for PBXNativeTarget "Quartz2DUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +536,7 @@
 				18C5408E1CC5C4BD009CBB21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
